@@ -19,3 +19,8 @@
 	-moz-box-shadow: 0px 0px 24px -1px rgba(0,0,0,0.75);
 	box-shadow: 0px 0px 24px -1px rgba(0,0,0,0.75);
 }
+
+/*Change 3: Removing focus outline from all elements*/
+*:focus{
+	outline:0!important;
+}
