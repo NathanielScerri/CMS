@@ -1,4 +1,13 @@
 /*
-Theme Name: Store Front Child
-Template: storefront
+ Theme Name: Store Front Child
+ Description:  Storefront Child Theme
+ Template:     storefront
 */
+
+/*Change 1: Removed breadcrumb and bottom margin from header*/
+.storefront-breadcrumb{
+	visibility:hidden!important;
+}
+#masthead{
+	margin-bottom:0px!important;
+}
