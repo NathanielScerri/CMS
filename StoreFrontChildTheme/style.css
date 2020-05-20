@@ -5,9 +5,17 @@
 */
 
 /*Change 1: Removed breadcrumb and bottom margin from header*/
-.storefront-breadcrumb{
-	visibility:hidden!important;
+.storefront-breadcrumb,h1{
+	display:none;
 }
-#masthead{
+.site-header{
 	margin-bottom:0px!important;
+}
+
+/*Change 2: Styling content blocks in all pages*/
+.content-view{
+	margin-top:20px;
+	-webkit-box-shadow: 0px 0px 24px -1px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 24px -1px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 24px -1px rgba(0,0,0,0.75);
 }
