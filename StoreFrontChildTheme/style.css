@@ -50,3 +50,19 @@ th,td,fieldset{
 th{
 	background-color:rgb(25, 25, 25)!important;
 }
+
+/*Change 6: Styling Storefront Products*/
+.product{
+	background-color:#282828;
+	padding:5px;
+		-webkit-box-shadow: 0px 0px 19px 0px rgba(124,184,13,1);
+-moz-box-shadow: 0px 0px 19px 0px rgba(124,184,13,1);
+box-shadow: 0px 0px 19px 0px rgba(124,184,13,1);
+}
+.storefront-sorting{
+	background-color:#282828;
+	padding:5px;
+	-webkit-box-shadow: 0px 0px 19px 0px rgba(124,184,13,1);
+-moz-box-shadow: 0px 0px 19px 0px rgba(124,184,13,1);
+box-shadow: 0px 0px 19px 0px rgba(124,184,13,1);
+}
