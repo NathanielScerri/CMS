@@ -73,3 +73,7 @@ background: rgb(129,215,66)!important;
 background: linear-gradient(180deg, rgba(129,215,66,1) 12%, rgba(231,236,28,1) 100%)!important;
 }
 
+/*Change 8: Hiding other menu in mobile version*/
+.mega-menu-toggle{
+	display:none!important;
+}
