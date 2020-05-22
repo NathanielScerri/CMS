@@ -77,3 +77,11 @@ background: linear-gradient(180deg, rgba(129,215,66,1) 12%, rgba(231,236,28,1) 1
 .mega-menu-toggle{
 	display:none!important;
 }
+/*Change 9: Styling Image Sliders*/
+.image-content-container{
+	padding-top:20px;
+	background-color:#282828;
+	-webkit-box-shadow: 0px 0px 34px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 34px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 34px 0px rgba(0,0,0,0.75);
+}
